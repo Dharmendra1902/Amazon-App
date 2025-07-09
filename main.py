@@ -1,6 +1,6 @@
 from fastapi import FastAPI, Request
 from fastapi.middleware.cors import CORSMiddleware
-from amazon_model import get_products
+from amazon import get_products
 
 app = FastAPI()
 
